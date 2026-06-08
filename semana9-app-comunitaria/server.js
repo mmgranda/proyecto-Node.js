@@ -7,8 +7,14 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 const APP_NAME = process.env.APP_NAME || "App Comunitaria";
 const APP_ENV = process.env.APP_ENV || "development";
+const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 
 app.use(express.json());
+
+function existeTokenTelegram() {
+  return Boolean(TELEGRAM_BOT_TOKEN);
+}
+
 
 app.get("/", (req, res) => {
   res.send(`
@@ -20,19 +26,14 @@ app.get("/", (req, res) => {
 
 app.get("/saludo", (req, res) => {
   res.json({
-    mensaje: "Hola. La aplicación comunitaria está respondiendo correctamente.",
-    clase: 41,
-    semana: 9
+    mensaje: "Hola. La aplicación comunitaria está respondiendo correctamente."
   });
 });
 
 app.get("/estado", (req, res) => {
   res.json({
     estado: "activo",
-    servicio: APP_NAME,
-    entorno: APP_ENV,
-    puerto: PORT,
-    fecha: new Date().toISOString()
+     mensaje: "La aplicación está disponible"  
   });
 });
 
@@ -47,6 +48,15 @@ app.get("/api/info", (req, res) => {
   });
 });
 
+app.get("/diagnostico", (req, res) => {
+  res.json({
+    entorno: APP_ENV,
+    telegramConfigurado: existeTokenTelegram(),
+    nota: "Esta ruta es de práctica. No muestra tokens ni credenciales."
+  });
+});
+
+
 app.use((req, res) => {
   res.status(404).json({
     error: "Ruta no encontrada",
@@ -59,4 +69,12 @@ app.listen(PORT, () => {
   console.log(`Aplicación: ${APP_NAME}`);
   console.log(`Entorno: ${APP_ENV}`);
   console.log(`Puerto: ${PORT}`);
+
+   if (existeTokenTelegram()) {
+    console.log("Telegram: token detectado, pero no se imprime por seguridad.");
+  } else {
+    console.warn("Telegram: token no configurado.");
+  }
 });
+
+
