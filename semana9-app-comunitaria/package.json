@@ -5,7 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "pm2:start": "pm2 start server.js --name app-semana9",
+    "pm2:stop": "pm2 stop app-semana9",
+    "pm2:restart": "pm2 restart app-semana9",
+    "pm2:logs": "pm2 logs app-semana9",
+    "pm2:delete": "pm2 delete app-semana9",
+    "pm2:list": "pm2 list"
+
   },
   "keywords": [],
   "author": "",
@@ -14,5 +21,8 @@
   "dependencies": {
     "dotenv": "^17.4.2",
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "pm2": "^7.0.1"
   }
 }
