@@ -1,0 +1,40 @@
+BITÁCORA DE SEGURIDAD OPERATIVA - CLASE 42
+
+Nombre:
+Fecha:
+
+1. ¿Qué significa seguridad operativa aplicada?
+Respuesta:
+
+2. ¿Qué es el principio de mínimo privilegio?
+Respuesta:
+
+3. ¿Qué significa exposición mínima?
+Respuesta:
+
+4. ¿Para qué sirve .gitignore?
+Respuesta:
+
+5. ¿Por qué .env no debe subirse a GitHub?
+Respuesta:
+
+6. ¿Qué datos podrían ser sensibles en este proyecto?
+Respuesta:
+
+7. ¿Qué archivos no deberían subirse al repositorio?
+Respuesta:
+
+8. ¿Qué rutas deberían mantenerse públicas?
+Respuesta:
+
+9. ¿Qué rutas deberían limitar información?
+Respuesta:
+
+10. ¿Qué cambio se hizo en /estado?
+Respuesta:
+
+11. ¿Qué muestra /diagnostico y qué no debe mostrar?
+Respuesta:
+
+12. ¿Qué aprendí sobre proteger credenciales?
+Respuesta:
