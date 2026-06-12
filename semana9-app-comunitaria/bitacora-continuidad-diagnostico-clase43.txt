@@ -1,0 +1,44 @@
+BITÁCORA DE CONTINUIDAD Y DIAGNÓSTICO - CLASE 43
+
+Nombre:
+Fecha:
+Entorno: GitHub Codespaces
+
+1. ¿Qué es continuidad operativa?
+Respuesta:
+
+2. ¿Qué es PM2?
+Respuesta:
+
+3. ¿Qué comando usé para iniciar la aplicación con PM2?
+Respuesta:
+
+4. ¿Qué comando usé para listar procesos?
+Respuesta:
+
+5. ¿Qué comando usé para detener la aplicación?
+Respuesta:
+
+6. ¿Qué comando usé para reiniciar la aplicación?
+Respuesta:
+
+7. ¿Qué comando usé para revisar logs?
+Respuesta:
+
+8. ¿Qué error simulé?
+Respuesta:
+
+9. ¿Qué mensaje apareció en logs?
+Respuesta:
+
+10. ¿Cuál fue la causa probable del error?
+Respuesta:
+
+11. ¿Cómo corregí el error?
+Respuesta:
+
+12. ¿Qué rutas verifiqué después de corregir?
+Respuesta:
+
+13. ¿Qué debo evitar al tomar capturas de logs?
+Respuesta:
