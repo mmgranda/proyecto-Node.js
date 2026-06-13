@@ -1,0 +1,32 @@
+CHECKLIST DE DOCUMENTACIÓN SEGURA - CLASE 44
+
+Nombre:
+Fecha:
+
+[ ] Comprendí qué es un procedimiento técnico.
+[ ] Comprendí por qué documentar evita dependencia.
+[ ] Comprendí qué es un servidor.
+[ ] Comprendí qué es hosting compartido.
+[ ] Comprendí qué es cPanel.
+[ ] Comprendí qué es un VPS.
+[ ] Comprendí qué es un servidor dedicado.
+[ ] Comprendí qué es la nube.
+[ ] Comprendí que Codespaces es entorno de práctica.
+[ ] Creé PROCEDIMIENTO-DESPLIEGUE-CLASE44.md.
+[ ] Documenté requisitos del entorno.
+[ ] Documenté variables sin secretos reales.
+[ ] Documenté comandos de instalación.
+[ ] Documenté ejecución con npm start.
+[ ] Documenté operación con PM2.
+[ ] Documenté rutas de verificación.
+[ ] Actualicé .gitignore.
+[ ] Creé uploads/.gitkeep.
+[ ] Creé logs/.gitkeep.
+[ ] Creé tmp/.gitkeep.
+[ ] Verifiqué que archivos en uploads no se suben.
+[ ] Verifiqué que logs locales no se suben.
+[ ] Verifiqué que temporales no se suben.
+[ ] Usé IA sin pegar tokens.
+[ ] Verifiqué la respuesta de IA.
+[ ] Revisé git status antes del commit.
+[ ] Hice commit con mensaje claro.

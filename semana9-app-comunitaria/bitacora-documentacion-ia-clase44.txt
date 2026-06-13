@@ -1,0 +1,41 @@
+BITÁCORA DE DOCUMENTACIÓN E IA - CLASE 44
+
+Nombre:
+Fecha:
+Entorno: GitHub Codespaces
+
+1. ¿Qué es un procedimiento técnico?
+Respuesta:
+
+2. ¿Por qué documentar evita depender de una sola persona?
+Respuesta:
+
+3. ¿Qué diferencia hay entre Codespaces, hosting compartido, VPS y nube?
+Respuesta:
+
+4. ¿Qué es cPanel?
+Respuesta:
+
+5. ¿Qué archivos no deben subirse al repositorio?
+Respuesta:
+
+6. ¿Qué función cumple .gitignore?
+Respuesta:
+
+7. ¿Qué función cumple .gitkeep?
+Respuesta:
+
+8. ¿Qué carpeta se preparó para archivos subidos?
+Respuesta:
+
+9. ¿Por qué los archivos dentro de uploads no deben subirse automáticamente?
+Respuesta:
+
+10. ¿Qué consulta segura hice a IA?
+Respuesta:
+
+11. ¿Qué información evité compartir con IA?
+Respuesta:
+
+12. ¿Qué parte del procedimiento verifiqué manualmente?
+Respuesta:
