@@ -13,3 +13,7 @@ Practicar ramas, stash, merge fast-forward, merge no-fast-forward y resolución 
 - Fast-forward:
 - No-fast-forward:
 - Conflicto:
+
+## Nota temporal
+
+Esta nota todavía no está lista para commit.
